@@ -23,7 +23,7 @@ public class trigNotesDS : MonoBehaviour
         if ((other.gameObject.name == "Left Drumstick") || (other.gameObject.name == "Right Drumstick"))
         {
             audioSource.PlayOneShot(Hit, 3f);
-            Debug.Log("Note is Triggered");
+            Debug.Log("Note is Triggered.");
         }
 
     }
