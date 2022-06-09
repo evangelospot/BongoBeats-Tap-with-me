@@ -34,7 +34,7 @@ public class leftDSMovement : MonoBehaviour
 
     private void MoveDrumStick()
     {
-        // Receive Arrows as Input
+        // Receive MouseLeftButton as Input
         if (Input.GetMouseButtonDown(0))
         {
 
