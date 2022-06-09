@@ -36,8 +36,7 @@ public class leftDSMovement : MonoBehaviour
     {
         // Receive MouseLeftButton as Input
         if (Input.GetMouseButtonDown(0))
-        {
-
+        { 
             // Call ActivateMovement method
             ActivateMovement();
         }

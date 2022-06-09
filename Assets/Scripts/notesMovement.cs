@@ -6,7 +6,7 @@ public class notesMovement : MonoBehaviour
 {
     [SerializeField] Transform CubeTarget;
     [SerializeField] float speed;
-    [SerializeField] float distanceTimeMovement;
+    [SerializeField] float timeDistanceMovement;
 
 
 
@@ -20,7 +20,7 @@ public class notesMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Time.time >= distanceTimeMovement)
+        if (Time.time >= timeDistanceMovement)
         {
             Vector3 a = transform.position;
             Vector3 b = CubeTarget.position;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class notesRenderer : MonoBehaviour
 {
     MeshRenderer meshRenderer;
-    [SerializeField] float distanceTimeRenderer;
+    [SerializeField] float timeDistanceRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,9 @@ public class notesRenderer : MonoBehaviour
     void Update()
     {
         Debug.Log(Time.time);
-        if (Time.time >= distanceTimeRenderer)
+
+        //when is time enable renderer of note
+        if (Time.time >= timeDistanceRenderer)
         {
             meshRenderer.enabled = true;
         }
