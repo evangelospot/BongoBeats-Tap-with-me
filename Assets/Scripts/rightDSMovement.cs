@@ -30,7 +30,7 @@ public class rightDSMovement : MonoBehaviour
 
     private void MoveDrumStick()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             ActivateMovement();
             DisActivateMovement();

@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EmptyScene.unity
     guid: 2af933de91cc5bd4ebb8695bc1032b21
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: 05d3c4ec3bb02e34dafa8c2810107812
   m_configObjects:

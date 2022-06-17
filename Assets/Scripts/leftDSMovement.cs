@@ -35,7 +35,7 @@ public class leftDSMovement : MonoBehaviour
     private void MoveDrumStick()
     {
         // Receive MouseLeftButton as Input
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         { 
             // Call ActivateMovement method
             ActivateMovement();
