@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class scoreBoard : MonoBehaviour
 {
-    public static int scoreBoardTotal;
+    public static int hitTotalNotes;
+    public static int hitLeftNotes;
+    public static int hitRightNotes;
 
     // Start is called before the first frame update
     void Start()
