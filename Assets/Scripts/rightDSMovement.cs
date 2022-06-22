@@ -33,8 +33,15 @@ public class rightDSMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             ActivateMovement();
-            DisActivateMovement();
+
+            variables.rightTries += 1;
+            Debug.Log("Right tries = " + variables.rightTries);
+
+            variables.totalTries += 1;
+            Debug.Log("Total tries = " + variables.totalTries);
         }
+        // Call DisActivateMovement method
+        DisActivateMovement();
 
     }
 }

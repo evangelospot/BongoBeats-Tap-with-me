@@ -26,22 +26,22 @@ public class trigNotesDS : MonoBehaviour
             audioSource.PlayOneShot(Hit, 3f);
             Debug.Log("Note is Triggered.");
 
-            scoreBoard.hitLeftNotes += 3;
-            Debug.Log("Left Score is: " + scoreBoard.hitLeftNotes);
+            variables.hitLeftNotes += 3;
+            Debug.Log("Left Score is: " + variables.hitLeftNotes);
 
-            scoreBoard.hitTotalNotes += 3;
-            Debug.Log("Total Score is: " + scoreBoard.hitTotalNotes);
+            variables.hitTotalNotes += 3;
+            Debug.Log("Total Score is: " + variables.hitTotalNotes);
         }
         else if (other.gameObject.name == "Right Drumstick")
         {
             audioSource.PlayOneShot(Hit, 3f);
             Debug.Log("Note is Triggered.");
 
-            scoreBoard.hitRightNotes += 3;
-            Debug.Log("Right Score is: " + scoreBoard.hitRightNotes);
+            variables.hitRightNotes += 3;
+            Debug.Log("Right Score is: " + variables.hitRightNotes);
 
-            scoreBoard.hitTotalNotes += 3;
-            Debug.Log("Total Score is: " + scoreBoard.hitTotalNotes);
+            variables.hitTotalNotes += 3;
+            Debug.Log("Total Score is: " + variables.hitTotalNotes);
         }
     }
 }
