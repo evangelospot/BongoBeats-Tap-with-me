@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class variables : MonoBehaviour
 {
-    public static int hitTotalNotes;
+    public static int totalScore;
     public static int hitLeftNotes;
     public static int hitRightNotes;
     public static int totalTries;
