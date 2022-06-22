@@ -17,7 +17,7 @@ public class notesRenderer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Time.time);
+        //Debug.Log(Time.time);
 
         //when is time enable renderer of note
         if (Time.time >= timeDistanceRenderer)

@@ -10,6 +10,7 @@ public class trigNotesDS : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        
     }
 
 
@@ -24,7 +25,8 @@ public class trigNotesDS : MonoBehaviour
         {
             audioSource.PlayOneShot(Hit, 3f);
             Debug.Log("Note is Triggered.");
+            scoreBoard.scoreBoardTotal += 3;
+            Debug.Log("Score is: " + scoreBoard.scoreBoardTotal);
         }
-
     }
 }
