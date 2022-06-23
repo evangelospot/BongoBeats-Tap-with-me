@@ -20,6 +20,7 @@ public class music : MonoBehaviour
     {
         if (!audioSource.isPlaying)
         {
+
             SceneManager.LoadScene("EmptyScene");
         }
     }
