@@ -10,13 +10,14 @@ public class trigNotesDS : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+
+
         
     }
 
 
     void Update()
     {
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -29,6 +30,7 @@ public class trigNotesDS : MonoBehaviour
             variables.hitLeftNotes += 1;
             Debug.Log("Left Score is: " + variables.hitLeftNotes);
 
+            variables.hitTotalNotes += 1;
             variables.totalScore += 3;
             Debug.Log("Total Score is: " + variables.totalScore);
         }
@@ -40,8 +42,11 @@ public class trigNotesDS : MonoBehaviour
             variables.hitRightNotes += 1;
             Debug.Log("Right Score is: " + variables.hitRightNotes);
 
+            variables.hitTotalNotes += 1;
             variables.totalScore += 3;
             Debug.Log("Total Score is: " + variables.totalScore);
         }
+
     }
+
 }

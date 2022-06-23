@@ -1,4 +1,4 @@
-Left Tries,Right Tries
-6,5
-Left Tries,Right Tries
-1,0
+Time Duration,Left Tries,Right Tries,Total Tries,Left Hits,Right Hits,Total Hits,Total Score
+0:11,3,2,5,1,1,2,6
+Time Duration,Left Tries,Right Tries,Total Tries,Left Hits,Right Hits,Total Hits,Total Score
+0:5,9,6,15,0,0,0,0
