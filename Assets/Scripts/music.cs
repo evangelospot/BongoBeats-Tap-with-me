@@ -6,28 +6,58 @@ using UnityEngine.SceneManagement;
 public class music : MonoBehaviour
 {
     public AudioClip butterfly;
-    AudioSource audioSource;
+    public AudioClip rose;
+    AudioSource audioSource1;
+    AudioSource audioSource2;
+    string sceneName;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        PlayMusic();
+        //Scene currentScene = SceneManager.GetActiveScene();
+        //string sceneName = currentScene.name;
+
+        audioSource1 = GetComponent<AudioSource>();
+        audioSource2 = GetComponent<AudioSource>();
+        if ((SceneManager.GetActiveScene().name == "TrialScene"))
+        {
+            PlayMusicTrial();
+        }
+        else if ((SceneManager.GetActiveScene().name == "GameScene"))
+        {
+            PlayMusicGame();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!audioSource.isPlaying)
+        if ((SceneManager.GetActiveScene().name == "TrialScene"))
+            { 
+            if (!audioSource1.isPlaying)
+            {
+                Debug.Break();
+            }
+        }
+        else if ((SceneManager.GetActiveScene().name == "GameScene"))
         {
-
-            SceneManager.LoadScene("EmptyScene");
+            if (!audioSource2.isPlaying)
+            {
+                Debug.Break();
+            }
         }
     }
+           
 
-    private void PlayMusic()
+    private void PlayMusicTrial()
     {
-        audioSource.Play();
+        audioSource1.Play();
+    }
+
+    private void PlayMusicGame()
+    {
+        audioSource2.Play();
     }
 
 
