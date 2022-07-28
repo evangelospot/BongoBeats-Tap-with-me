@@ -12,3 +12,5 @@ If the guide is a pupil with low vision can choose whether to play with haptics 
 When a note is hitted succesfuly you hear a drum and a slam sound. When a note is misshited you hear only a drum sound. The drum and slam audio are spatial to help the visually impaired children knowing what's happening in the game.
 
 Every succesfull hit counts for 3 points. The game objective is to collect as many points as possible. 
+
+Note: To close the applicaton, press Escape.
