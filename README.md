@@ -3,7 +3,7 @@ My master's thesis - An inclusive rhythm serious game for visually impaired and 
 
 Players play locally in teams of two. One player is the guide and the other the performer. 
 
-The guide holds the two VR controllers and receives vibrations to be informed about the time and the direction of the notes coming. Thus, is responsible to inform the performer to hit the notes at the right timing. 
+The guide holds the two (HTC Vive Pro) VR controllers and receives vibrations to be informed about the time and the direction of the notes coming. Thus, is responsible to inform the performer to hit the notes at the right timing. 
 
 The performer must listen the directions of the guide, and hit the notes using the left and the right arrow keys of the keyboard. 
 
